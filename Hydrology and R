@@ -1,0 +1,76 @@
+Information pertaining to R packages and hydrology
+
+https://waterprogramming.wordpress.com/
+https://tonyladson.wordpress.com/
+
+R package documentation (CRAN, Github), vignettes
+https://rdrr.io/
+
+CRAN Task View: Packages for R relevant to hydrology
+Detailed list of R packages 
+Includes data retrieval, data tidying, hydrograph analyses, trends, etc
+https://cran.r-project.org/web/views/Hydrology.html
+
+*************************************
+METEOROLOGICAL DATA ACQUISITION
+*************************************
+MODISTools: Downloads of MODIS time series
+https://cran.r-project.org/web/packages/MODISTools/MODISTools.pdf
+
+Programmatic interface to the Oak Ridge National Laboratories'MODIS Land Products Subsets' 
+web services(<https://modis.ornl.gov/data/modis_webservice.html>). Allows for easy downloads 
+of 'MODIS' time series directly to your R workspace or your computer.
+
+*****************
+RNRCS: Downloads Natural Resource Conservation Service (NRCS) data 
+https://cran.r-project.org/web/packages/RNRCS/RNRCS.pdf
+
+Downloads Natural Resources Conservation Service (NRCS) data for sites in the Soil Climate Analysis Network (SCAN) 
+<https://www.wcc.nrcs.usda.gov/scan/>, and Snow Telemetry (SNOTEL and SNOLITE) <https://www.wcc.nrcs.usda.gov/snow/> networks. 
+Metadata can be returned for all sites in the NRCS' Air and Water Data Base (AWDB) <https://www.wcc.nrcs.usda.gov/report_generator/AWDB_Network_Codes.pdf>
+
+*****************
+smapr: Acquisition and Processing of NASA Soil Moisture Active-Passive (SMAP) Data
+https://cran.r-project.org/web/packages/smapr/smapr.pdf
+
+Facilitates programmatic access to NASA Soil Moisture ActivePassive (SMAP) data with R. 
+It includes functions to search for, acquire, and extract SMAP data
+
+
+*************************************
+HYDROGRAPH ANALYSIS
+*************************************
+fasstr: Analyze, Summarize, and Visualize Daily Streamflow Data
+https://cran.r-project.org/web/packages/fasstr/fasstr.pdf
+https://rdrr.io/cran/fasstr/
+
+The Flow Analysis Summary Statistics Tool for R, 'fasstr', provides various functions to tidy and screen daily stream discharge data; 
+calculate and visualize various summary statistics and metrics; and compute annual trending (using 'zyp' package methods <https://CRAN.R-project.org/package=zyp>)
+and volume frequency analyses (using methods similar to HEC-SSP (2019)<https://www.hec.usace.army.mil/software/hec-ssp/>). 
+It features useful function arguments for filtering of and handling dates, customizing data and metrics.
+
+*****************
+hydrostats: Hydrologic Indices for Daily Time Series Data
+https://cran.r-project.org/web/packages/hydrostats/hydrostats.pdf
+https://rdrr.io/cran/hydrostats/
+
+Calculates a suite of hydrologic indices for daily time series data that are widely used in hydrology and stream ecology.
+
+*****************
+hydroTSM: Time Series Management, Analysis and Interpolation for Hydrological Modelling
+https://cran.r-project.org/web/packages/hydroTSM/hydroTSM.pdf
+
+S3 functions for management, analysis, interpolation and plotting of time series used in hydrology and related environmental sciences. 
+In particular, this package is highly oriented to hydrological modelling tasks. The focus of this package has been put in providing 
+a collection of tools useful for the daily work of hydrologists 
+
+*****************
+hydroGOF: Goodness of Fit Functions for Comparison of Simulated and Observed Hydrological Time Series
+https://cran.r-project.org/web/packages/hydroGOF/hydroGOF.pdf
+
+S3 functions implementing both statistical and graphical goodness-of-fit measures between observed and simulated values, 
+mainly oriented to be used during the calibration, validation, and application of hydrological models.
+
+
+
+
