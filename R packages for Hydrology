@@ -12,6 +12,20 @@ Includes data retrieval, data tidying, hydrograph analyses, trends, etc
 https://cran.r-project.org/web/views/Hydrology.html
 
 *************************************
+HYDROLOGICAL DATA ACQUISITION
+*************************************
+dataRetrieval: Retrieve USGS and EPA hydrologic and water quality data
+https://cran.r-project.org/web/packages/dataRetrieval/vignettes/dataRetrieval.html
+
+*****************
+waterData: Retrieval, analysis, and calculations of anomalies of daily hydrologic time series data
+https://cran.r-project.org/web/packages/waterData/waterData.pdf
+
+Imports U.S. Geological Survey (USGS) daily hydrologic data from USGS web services 
+(see <https://waterservices.usgs.gov/> for more information), plots the data, 
+addresses some common data problems, and calculates and plots anomalies.
+
+*************************************
 METEOROLOGICAL DATA ACQUISITION
 *************************************
 MODISTools: Downloads of MODIS time series
